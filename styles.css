@@ -1,0 +1,98 @@
+
+/* Header Area */
+.header_area {
+    background: linear-gradient(135deg, #FFFF00, #FFFFFF, #FFFF00); /* Holographic gradient */
+    padding: 10px 0; /* Reduced padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Z-index to ensure it appears above other content */
+    border-radius: 50px; /* Round shape */
+}
+
+/* Navbar Brand (Logo) */
+.navbar-brand {
+    padding: 0; /* Remove padding */
+    border-radius: 50%; /* Round shape for logo */
+    overflow: hidden; /* Hide overflow for rounded effect */
+}
+
+.navbar-brand img {
+    max-width: 120px; 
+    height: auto;
+    border-radius: 50%; /* Round shape for logo */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border */
+    background-color: transparent; /* Transparent background */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+.navbar-toggler-icon {
+    display: block; /* Display as block element */
+    width: 30px; /* Width of the icon */
+    height: 3px; /* Height of the icon */
+    background-color: #fff; /* White color for icon */
+    transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+.navbar-toggler.active .navbar-toggler-icon {
+    background-color: #000; /* Black color when active */
+}
+
+/* Navbar Navigation */
+.navbar-nav {
+    margin-left: auto; 
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px; 
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text color */
+    font-weight: 500; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFF00; /* Yellow hover color */
+}
+/* Banner Area */
+.banner-area {
+    background-color: #000; /* Black background color */
+    padding: 200px 0; /* Adjusted padding */
+    margin-top: 70px; /* Add space for the navbar */
+}
+
+/* Banner Content */
+.banner-content h1 {
+    font-size: 48px; /* Font size */
+    color: #FFD700; /* Yellow text color */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.banner-content p {
+    font-size: 18px; /* Font size */
+    color: #fff; /* White text color */
+    margin-bottom: 40px; /* Bottom margin */
+}
+
+/* Banner Image */
+.banner-img img {
+    max-width: 100%; /* Maximum width */
+    height: auto; /* Allow the image's height to adjust accordingly */
+}
+
+
+/* Footer */
+.footer-area {
+    background: linear-gradient(135deg, #FFFF00, #FFFFFF, #FFFF00); /* Holographic gradient for footer */
+    color: #080707; /* White text color */
+    padding: 20px 0; /* Padding */
+    text-align: center; /* Center align text */
+}
+

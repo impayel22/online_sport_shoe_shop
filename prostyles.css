@@ -1,0 +1,196 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Change text color to white */
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.header_area {
+    background: linear-gradient(135deg, #FFFF00, #FFFFFF, #FFFF00); /* Holographic gradient */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.logo_h img {
+    max-height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Change text color to white */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.active .nav-link {
+    font-weight: bold;
+}
+
+/* Custom CSS for RunnersRack website */
+
+/* Style for section titles */
+.section-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for product details */
+.product-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-details h6 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.price {
+    margin-bottom: 15px;
+}
+
+.price h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Change text color to white */
+}
+
+.l-through {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Style for product image */
+.single-product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style for product bottom links */
+.prd-bottom {
+    margin-top: 20px;
+}
+
+.social-info {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-info span,
+.hover-text {
+    display: block;
+    text-align: center;
+}
+
+.hover-text {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #fff; /* Change text color to white */
+}
+
+/* Sticky header style */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Footer style */
+.footer-area {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-area p {
+    margin: 0;
+}
+
+
+/* Styles for the cart drawer */
+.drawer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #bdcb50;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the drawer appears above other content */
+    display: none; /* Initially hidden */
+}
+
+.drawer.open {
+    display: block; /* Show the drawer when it has the "open" class */
+}
+
+.drawer .title {
+    background-color: #0a0707;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.drawer .title p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.drawer .content {
+    padding: 20px;
+}
+
+.drawer .footer {
+    background-color: #c7cf5b;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.drawer .footer .promotion-code {
+    margin-bottom: 10px;
+}
+
+.drawer .footer input[type="text"] {
+    width: 150px;
+    padding: 5px;
+}
+
+.drawer .footer .total {
+    margin-top: 10px;
+}
+
+.drawer .footer .total .title {
+    font-weight: bold;
+}
+
+/* Styles for the close button */
+.mc-toggler {
+    cursor: pointer;
+}
+
+.mc-toggler i {
+    font-size: 20px;
+}
+
